@@ -12,6 +12,7 @@ class ProfileBarrelRacingController extends Controller
      */
     public function Profile($id)
     {
+        echo "we are here"; exit;
         $owner = User::findOrFail($id);
         $page_views_count = $owner->page_views + 1;
         $owner->page_views = $page_views_count;

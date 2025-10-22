@@ -5,7 +5,8 @@ $url_last_part = Request::segment(count(Request::segments()));
     <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
     <aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
-        <h1 id="fh5co-logo"><a href="{{url('/')}}"><img class="w-100" src="{{url('/assets/front/img/logo.jpg')}}" alt="Barrel Racing Hotline"></a></h1>
+        <h1 id="fh5co-logo"><a href="{{url('/')}}">
+            <img class="w-100" src="{{url('/assets/front/img/logo.jpg')}}" alt="Barrel Racing Hotline"></a></h1>
         <nav id="fh5co-main-menu" role="navigation">
             <div class="mb-3">
             <div class="text-decoration-none text-center">

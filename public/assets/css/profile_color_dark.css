@@ -1,0 +1,11 @@
+:root {
+  --primary: #0dcaf0;
+  --secondary: #adb5bd;
+  --background: #121212;
+  --foreground: #f1f1f1;
+  --link-color: var(--primary);
+  --link-hover-color: #84e9f9;
+  --highlight-bg: #333;
+  --border-color: #444;
+}
+

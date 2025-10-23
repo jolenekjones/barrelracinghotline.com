@@ -10,54 +10,54 @@
                         <div class="masonry">
                             <div class="row">
                                 <div class="col-md-6 gallery-item p-0">
-                                    <a    href="{{url('/')}}/assets/front/img/portfolio_big_1.jpg" data-lightbox="image">
-                                        <div class='img-item'  style='background:url({{url('/')}}/assets/front/img/portfolio_big_1.jpg);
+                                    <a    href="{{url('/')}}/assets/img/portfolio_big_1.jpg" data-lightbox="image">
+                                        <div class='img-item'  style='background:url({{url('/')}}/assets/img/portfolio_big_1.jpg);
                                             height: 322px; background-size: cover;'>
-                                 
+
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-md-6 gallery-item p-0">
-                                    <a  
-                                        href="{{url('/')}}/assets/front/img/portfolio_big_2.jpg" data-lightbox="image">
-                                        <div class='img-item'  style='background:url({{url('/')}}/assets/front/img/portfolio_big_2.jpg);    height: 322px;
+                                    <a
+                                        href="{{url('/')}}/assets/img/portfolio_big_2.jpg" data-lightbox="image">
+                                        <div class='img-item'  style='background:url({{url('/')}}/assets/img/portfolio_big_2.jpg);    height: 322px;
                              background-size: cover;'></div>
                                     </a>
                                 </div>
                                 <div class="col-md-4 gallery-item p-0">
-                                    <a href="{{url('/')}}/assets/front/img/portfolio_big_3.jpg"
+                                    <a href="{{url('/')}}/assets/img/portfolio_big_3.jpg"
                                        data-lightbox="image">
-                                        <div  class='img-item'   style='background:url({{url('/')}}/assets/front/img/portfolio_big_3.jpg);    height: 250px;
+                                        <div  class='img-item'   style='background:url({{url('/')}}/assets/img/portfolio_big_3.jpg);    height: 250px;
                                       background-size: cover;'></div>
                                     </a>
                                 </div>
                                 <div class="col-md-4 gallery-item p-0">
-                                    <a href="{{url('/')}}/assets/front/img/portfolio_big_4.jpg" data-lightbox="image">
-                                        <div class='img-item'  style='background:url({{url('/')}}/assets/front/img/portfolio_big_4.jpg);    height: 250px;
+                                    <a href="{{url('/')}}/assets/img/portfolio_big_4.jpg" data-lightbox="image">
+                                        <div class='img-item'  style='background:url({{url('/')}}/assets/img/portfolio_big_4.jpg);    height: 250px;
                                background-size: cover;'></div>
                                     </a>
                                 </div>
                                 <div class="col-md-4 p-0 gallery-item gallery-overlay-container">
                                     <div class='number'>2+</div>
-                                    <a href="{{url('/')}}/assets/front/img/portfolio_big_5.jpg" data-lightbox="image">
-                                        <div  class='img-item'  style='background:url({{url('/')}}/assets/front/img/portfolio_big_5.jpg);    height: 250px;
+                                    <a href="{{url('/')}}/assets/img/portfolio_big_5.jpg" data-lightbox="image">
+                                        <div  class='img-item'  style='background:url({{url('/')}}/assets/img/portfolio_big_5.jpg);    height: 250px;
                              background-size: cover;'></div>
                                     </a>
                                 </div>
                                 <div class="col-md-8"  style="display: none;">
-                                    <a href="{{url('/')}}/assets/front/img/portfolio_big_2.jpg" data-lightbox="image">
+                                    <a href="{{url('/')}}/assets/img/portfolio_big_2.jpg" data-lightbox="image">
                                     </a>
                                 </div>
                                 <div class="col-md-8" style="display: none;">
-                                    <a href="{{url('/')}}/assets/front/img/portfolio_big_5.jpg" data-lightbox="image">
+                                    <a href="{{url('/')}}/assets/img/portfolio_big_5.jpg" data-lightbox="image">
                                     </a>
                                 </div>
                             </div>
                         </div>
-                    </div> 
+                    </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12">
-                
+
             </div>
         </div>
     </section>
@@ -94,7 +94,7 @@
     </div>
   </div>
     </section>
-    
+
     <!-- Owner Detail section -->
      @include('front-end.inc._owner_horse_contact')
 </div>

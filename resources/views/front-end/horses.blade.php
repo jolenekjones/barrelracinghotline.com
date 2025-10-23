@@ -5,7 +5,7 @@
 $total_trees = [];
 $allConnections =[];
 @endphp
-<div id="fh5co-main"> 
+<div id="fh5co-main">
     <section id="feature-horses-section" class="content-section p-5">
         <div class="section-heading">
             <h2 class="fh5co-heading animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
@@ -28,14 +28,14 @@ $allConnections =[];
                                     <li>
                                         <div class="item row m-0">
                                             <div class='col-lg-9 col-md-9 col-sm-12  gallery-overlay-container'>
-                                                <img src="{{url('/')}}/assets/front/img/blog_1.jpg" alt="">
+                                                <img src="{{url('/')}}/assets/img/blog_1.jpg" alt="">
                                                 <div class="number">5+</div>
                                             </div>
                                             <div class='col-lg-3 col-md-3 col-sm-12 col-sm-12'>
                                                 <div class="text-content">
                                                     <div class=" p-0">
                                                         <h1 class="horse-name horsenametruncate mt-2 mb-0">
-                                                            <a class="text-decoration-none" 
+                                                            <a class="text-decoration-none"
                                                                href="{{url('/horse-details/16185')}}">Designed By Charly </a>
                                                         </h1>
                                                         <p class="horses-sire-dam-ds text-capitalize mb-0">
@@ -44,7 +44,7 @@ $allConnections =[];
                                                         <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
                                                             Slye By Design  x<br>
                                                             Misscharlypotatoes12<br>
-                                                        </p> 
+                                                        </p>
                                                     </div>
                                                     <div class="accent-button button mt-2">
                                                         <a href="{{url('/horse-details/12345')}}">Continue Reading</a>
@@ -56,13 +56,13 @@ $allConnections =[];
                                     <li>
                                         <div class="item row">
                                             <div class='col-lg-9 col-md-9 col-sm-12  gallery-overlay-container'>
-                                                <img src="{{url('/')}}/assets/front/img/blog_2.jpg" alt="">
+                                                <img src="{{url('/')}}/assets/img/blog_2.jpg" alt="">
                                                 <div class="number">5+</div>
                                             </div>
                                             <div class="col-lg-3 col-md-3 col-sm-12 col-sm-12 text-content">
                                                 <div class=" p-0">
                                                     <h1 class="horse-name horsenametruncate mt-2 mb-0">
-                                                        <a class="text-decoration-none" 
+                                                        <a class="text-decoration-none"
                                                            href="{{url('/horse-details/16185')}}">Designed By Charly </a>
                                                     </h1>
                                                     <p class="horses-sire-dam-ds text-capitalize mb-0">
@@ -71,7 +71,7 @@ $allConnections =[];
                                                     <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
                                                         Slye By Design  x<br>
                                                         Misscharlypotatoes12<br>
-                                                    </p> 
+                                                    </p>
                                                 </div>
                                                 <div class="accent-button button mt-2">
                                                     <a href="{{url('/horse-details/12345')}}">Continue Reading</a>
@@ -86,13 +86,13 @@ $allConnections =[];
                                     <li>
                                         <div class="item row">
                                             <div class='col-lg-9 col-md-9 col-sm-12  gallery-overlay-container'>
-                                                <img src="{{url('/')}}/assets/front/img/blog_3.jpg" alt="">
+                                                <img src="{{url('/')}}/assets/img/blog_3.jpg" alt="">
                                                 <div class="number">5+</div>
                                             </div>
                                             <div class="col-lg-3 col-md-3 col-sm-12 col-sm-12 text-content">
                                                 <div class=" p-0">
                                                     <h1 class="horse-name horsenametruncate mt-2 mb-0">
-                                                        <a class="text-decoration-none" 
+                                                        <a class="text-decoration-none"
                                                            href="{{url('/horse-details/16185')}}">Designed By Charly </a>
                                                     </h1>
                                                     <p class="horses-sire-dam-ds text-capitalize mb-0">
@@ -101,7 +101,7 @@ $allConnections =[];
                                                     <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
                                                         Slye By Design  x<br>
                                                         Misscharlypotatoes12<br>
-                                                    </p> 
+                                                    </p>
                                                 </div>
                                                 <div class="accent-button button mt-2">
                                                     <a href="{{url('/horse-details/12345')}}">Continue Reading</a>
@@ -112,13 +112,13 @@ $allConnections =[];
                                     <li>
                                         <div class="item row">
                                             <div class='col-lg-9 col-md-9 col-sm-12  gallery-overlay-container'>
-                                                <img src="{{url('/')}}/assets/front/img/blog_1.jpg" alt="">
+                                                <img src="{{url('/')}}/assets/img/blog_1.jpg" alt="">
                                                 <div class="number">5+</div>
                                             </div>
                                             <div class="col-lg-3 col-md-3 col-sm-12 col-sm-12 text-content">
                                                 <div class=" p-0">
                                                     <h1 class="horse-name horsenametruncate mt-2 mb-0">
-                                                        <a class="text-decoration-none" 
+                                                        <a class="text-decoration-none"
                                                            href="{{url('/horse-details/16185')}}">Designed By Charly </a>
                                                     </h1>
                                                     <p class="horses-sire-dam-ds text-capitalize mb-0">
@@ -127,7 +127,7 @@ $allConnections =[];
                                                     <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
                                                         Slye By Design  x<br>
                                                         Misscharlypotatoes12<br>
-                                                    </p> 
+                                                    </p>
                                                 </div>
                                                 <div class="accent-button button mt-2">
                                                     <a href="{{url('/horse-details/12345')}}">Continue Reading</a>
@@ -138,13 +138,13 @@ $allConnections =[];
                                     <li>
                                         <div class="item row">
                                             <div class='col-lg-9 col-md-9 col-sm-12  gallery-overlay-container'>
-                                                <img src="{{url('/')}}/assets/front/img/blog_2.jpg" alt="">
+                                                <img src="{{url('/')}}/assets/img/blog_2.jpg" alt="">
                                                 <div class="number">5+</div>
                                             </div>
                                             <div class="col-lg-3 col-md-3 col-sm-12 text-content">
                                                 <div class=" p-0">
                                                     <h1 class="horse-name horsenametruncate mt-2 mb-0">
-                                                        <a class="text-decoration-none" 
+                                                        <a class="text-decoration-none"
                                                            href="{{url('/horse-details/16185')}}">Designed By Charly </a>
                                                     </h1>
                                                     <p class="horses-sire-dam-ds text-capitalize mb-0">
@@ -153,7 +153,7 @@ $allConnections =[];
                                                     <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
                                                         Slye By Design  x<br>
                                                         Misscharlypotatoes12<br>
-                                                    </p> 
+                                                    </p>
                                                 </div>
                                                 <div class="accent-button button mt-2">
                                                     <a href="{{url('/horse-details/12345')}}">Continue Reading</a>
@@ -168,13 +168,13 @@ $allConnections =[];
                                     <li>
                                         <div class="item row">
                                             <div class='col-lg-9 col-md-9 col-sm-12  gallery-overlay-container'>
-                                                <img src="{{url('/')}}/assets/front/img/blog_2.jpg" alt="">
+                                                <img src="{{url('/')}}/assets/img/blog_2.jpg" alt="">
                                                 <div class="number">5+</div>
-                                            </div> 
+                                            </div>
                                             <div class="col-lg-3 col-md-3 col-sm-12 text-content">
                                                 <div class=" p-0">
                                                     <h1 class="horse-name horsenametruncate mt-2 mb-0">
-                                                        <a class="text-decoration-none" 
+                                                        <a class="text-decoration-none"
                                                            href="{{url('/horse-details/16185')}}">Designed By Charly </a>
                                                     </h1>
                                                     <p class="horses-sire-dam-ds text-capitalize mb-0">
@@ -183,7 +183,7 @@ $allConnections =[];
                                                     <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
                                                         Slye By Design  x<br>
                                                         Misscharlypotatoes12<br>
-                                                    </p> 
+                                                    </p>
                                                 </div>
                                                 <div class="accent-button button mt-2">
                                                     <a href="{{url('/horse-details/12345')}}">Continue Reading</a>
@@ -194,13 +194,13 @@ $allConnections =[];
                                     <li>
                                         <div class="item row">
                                             <div class='col-lg-9 col-md-9 col-sm-12  gallery-overlay-container'>
-                                                <img src="{{url('/')}}/assets/front/img/blog_1.jpg" alt="">
+                                                <img src="{{url('/')}}/assets/img/blog_1.jpg" alt="">
                                                 <div class="number">5+</div>
                                             </div>
                                             <div class="col-lg-3 col-md-3 col-sm-12 text-content">
                                                 <div class=" p-0">
                                                     <h1 class="horse-name horsenametruncate mt-2 mb-0">
-                                                        <a class="text-decoration-none" 
+                                                        <a class="text-decoration-none"
                                                            href="{{url('/horse-details/16185')}}">Designed By Charly </a>
                                                     </h1>
                                                     <p class="horses-sire-dam-ds text-capitalize mb-0">
@@ -209,7 +209,7 @@ $allConnections =[];
                                                     <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
                                                         Slye By Design  x<br>
                                                         Misscharlypotatoes12<br>
-                                                    </p> 
+                                                    </p>
                                                 </div>
                                                 <div class="accent-button button mt-2">
                                                     <a href="{{url('/horse-details/12345')}}">Continue Reading</a>
@@ -220,13 +220,13 @@ $allConnections =[];
                                     <li>
                                         <div class="item row">
                                             <div class='col-lg-9 col-md-9 col-sm-12  gallery-overlay-container'>
-                                                <img src="{{url('/')}}/assets/front/img/blog_3.jpg" alt="">
+                                                <img src="{{url('/')}}/assets/img/blog_3.jpg" alt="">
                                                 <div class="number">5+</div>
                                             </div>
                                             <div class="col-lg-3 col-md-3 col-sm-12 text-content">
                                                 <div class=" p-0">
                                                     <h1 class="horse-name horsenametruncate mt-2 mb-0">
-                                                        <a class="text-decoration-none" 
+                                                        <a class="text-decoration-none"
                                                            href="{{url('/horse-details/16185')}}">Designed By Charly </a>
                                                     </h1>
                                                     <p class="horses-sire-dam-ds text-capitalize mb-0">
@@ -235,7 +235,7 @@ $allConnections =[];
                                                     <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
                                                         Slye By Design  x<br>
                                                         Misscharlypotatoes12<br>
-                                                    </p> 
+                                                    </p>
                                                 </div>
                                                 <div class="accent-button button mt-2">
                                                     <a href="{{url('/horse-details/12345')}}">Continue Reading</a>
@@ -250,13 +250,13 @@ $allConnections =[];
                                     <li>
                                         <div class="item row">
                                             <div class='col-lg-9 col-md-9 col-sm-12  gallery-overlay-container'>
-                                                <img src="{{url('/')}}/assets/front/img/blog_1.jpg" alt="">
+                                                <img src="{{url('/')}}/assets/img/blog_1.jpg" alt="">
                                                 <div class="number">5+</div>
                                             </div>
                                             <div class="col-lg-3 col-md-3 col-sm-12 text-content">
                                                 <div class=" p-0">
                                                     <h1 class="horse-name horsenametruncate mt-2 mb-0">
-                                                        <a class="text-decoration-none" 
+                                                        <a class="text-decoration-none"
                                                            href="{{url('/horse-details/16185')}}">Designed By Charly </a>
                                                     </h1>
                                                     <p class="horses-sire-dam-ds text-capitalize mb-0">
@@ -265,33 +265,7 @@ $allConnections =[];
                                                     <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
                                                         Slye By Design  x<br>
                                                         Misscharlypotatoes12<br>
-                                                    </p> 
-                                                </div>
-                                                <div class="accent-button button mt-2">
-                                                    <a href="{{url('/horse-details/12345')}}">Continue Reading</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>                                
-                                    <li>
-                                        <div class="item row">
-                                            <div class='col-lg-9 col-md-9 col-sm-12  gallery-overlay-container'>
-                                                <img src="{{url('/')}}/assets/front/img/blog_3.jpg" alt="">
-                                                <div class="number">5+</div>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-sm-12  text-content">
-                                                <div class=" p-0">
-                                                    <h1 class="horse-name horsenametruncate mt-2 mb-0">
-                                                        <a class="text-decoration-none" 
-                                                           href="{{url('/horse-details/16185')}}">Designed By Charly </a>
-                                                    </h1>
-                                                    <p class="horses-sire-dam-ds text-capitalize mb-0">
-                                                        2022 Brown Stallion
                                                     </p>
-                                                    <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
-                                                        Slye By Design  x<br>
-                                                        Misscharlypotatoes12<br>
-                                                    </p> 
                                                 </div>
                                                 <div class="accent-button button mt-2">
                                                     <a href="{{url('/horse-details/12345')}}">Continue Reading</a>
@@ -302,13 +276,13 @@ $allConnections =[];
                                     <li>
                                         <div class="item row">
                                             <div class='col-lg-9 col-md-9 col-sm-12  gallery-overlay-container'>
-                                                <img src="{{url('/')}}/assets/front/img/blog_2.jpg" alt="">
+                                                <img src="{{url('/')}}/assets/img/blog_3.jpg" alt="">
                                                 <div class="number">5+</div>
                                             </div>
-                                            <div class="col-lg-3 col-md-3 col-sm-12 text-content">
+                                            <div class="col-lg-3 col-md-3 col-sm-12  text-content">
                                                 <div class=" p-0">
                                                     <h1 class="horse-name horsenametruncate mt-2 mb-0">
-                                                        <a class="text-decoration-none" 
+                                                        <a class="text-decoration-none"
                                                            href="{{url('/horse-details/16185')}}">Designed By Charly </a>
                                                     </h1>
                                                     <p class="horses-sire-dam-ds text-capitalize mb-0">
@@ -317,7 +291,33 @@ $allConnections =[];
                                                     <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
                                                         Slye By Design  x<br>
                                                         Misscharlypotatoes12<br>
-                                                    </p> 
+                                                    </p>
+                                                </div>
+                                                <div class="accent-button button mt-2">
+                                                    <a href="{{url('/horse-details/12345')}}">Continue Reading</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item row">
+                                            <div class='col-lg-9 col-md-9 col-sm-12  gallery-overlay-container'>
+                                                <img src="{{url('/')}}/assets/img/blog_2.jpg" alt="">
+                                                <div class="number">5+</div>
+                                            </div>
+                                            <div class="col-lg-3 col-md-3 col-sm-12 text-content">
+                                                <div class=" p-0">
+                                                    <h1 class="horse-name horsenametruncate mt-2 mb-0">
+                                                        <a class="text-decoration-none"
+                                                           href="{{url('/horse-details/16185')}}">Designed By Charly </a>
+                                                    </h1>
+                                                    <p class="horses-sire-dam-ds text-capitalize mb-0">
+                                                        2022 Brown Stallion
+                                                    </p>
+                                                    <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
+                                                        Slye By Design  x<br>
+                                                        Misscharlypotatoes12<br>
+                                                    </p>
                                                 </div>
                                                 <div class="accent-button button mt-2">
                                                     <a href="{{url('/horse-details/12345')}}">Continue Reading</a>
@@ -327,7 +327,7 @@ $allConnections =[];
                                     </li>
                                 </ul>
                             </div>
-                        </section> 
+                        </section>
                     </div>
                 </div>
             </div>

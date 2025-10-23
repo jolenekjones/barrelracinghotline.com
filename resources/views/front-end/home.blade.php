@@ -78,7 +78,7 @@
                             <a href="{{url('/')}}diy-tools.php">Do It Yourself</a>
                         </div>
                     </div>
-                    <div class='col-lg-6'> 
+                    <div class='col-lg-6'>
                         <div class="accent-button button">
                             <a href="{{url('/')}}/hire-us.php">Hire Us</a>
                         </div>
@@ -111,7 +111,7 @@
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <div class="image">
-                        <img src="{{url('/')}}/assets/front/img/featured_1.jpg" alt="">
+                        <img src="{{url('/')}}/assets/img/featured_1.jpg" alt="">
                         <div class="featured-button button">
                             <a href="#projects">Continue Reading</a>
                         </div>
@@ -124,7 +124,7 @@
                 </div>
                 <div class="item">
                     <div class="image">
-                        <img src="{{url('/')}}/assets/front/img/featured_2.jpg" alt="">
+                        <img src="{{url('/')}}/assets/img/featured_2.jpg" alt="">
                         <div class="featured-button button">
                             <a href="#projects">Continue Reading</a>
                         </div>
@@ -137,7 +137,7 @@
                 </div>
                 <div class="item">
                     <div class="image">
-                        <img src="{{url('/')}}/assets/front/img/featured_3.jpg" alt="">
+                        <img src="{{url('/')}}/assets/img/featured_3.jpg" alt="">
                         <div class="featured-button button">
                             <a href="#projects">Continue Reading</a>
                         </div>
@@ -150,7 +150,7 @@
                 </div>
                 <div class="item">
                     <div class="image">
-                        <img src="{{url('/')}}/assets/front/img/featured_2.jpg" alt="">
+                        <img src="{{url('/')}}/assets/img/featured_2.jpg" alt="">
                         <div class="featured-button button">
                             <a href="#projects">Continue Reading</a>
                         </div>
@@ -163,7 +163,7 @@
                 </div>
                 <div class="item">
                     <div class="image">
-                        <img src="{{url('/')}}/assets/front/img/featured_1.jpg" alt="">
+                        <img src="{{url('/')}}/assets/img/featured_1.jpg" alt="">
                         <div class="featured-button button">
                             <a href="#projects">Continue Reading</a>
                         </div>
@@ -176,7 +176,7 @@
                 </div>
                 <div class="item">
                     <div class="image">
-                        <img src="{{url('/')}}/assets/front/img/featured_3.jpg" alt="">
+                        <img src="{{url('/')}}/assets/img/featured_3.jpg" alt="">
                         <div class="featured-button button">
                             <a href="#projects">Continue Reading</a>
                         </div>
@@ -189,7 +189,7 @@
                 </div>
                 <div class="item">
                     <div class="image">
-                        <img src="{{url('/')}}/assets/front/img/featured_2.jpg" alt="">
+                        <img src="{{url('/')}}/assets/img/featured_2.jpg" alt="">
                         <div class="featured-button button">
                             <a href="#projects">Continue Reading</a>
                         </div>
@@ -202,7 +202,7 @@
                 </div>
                 <div class="item">
                     <div class="image">
-                        <img src="{{url('/')}}/assets/front/img/featured_1.jpg" alt="">
+                        <img src="{{url('/')}}/assets/img/featured_1.jpg" alt="">
                         <div class="featured-button button">
                             <a href="#projects">Continue Reading</a>
                         </div>
@@ -215,7 +215,7 @@
                 </div>
                 <div class="item">
                     <div class="image">
-                        <img src="{{url('/')}}/assets/front/img/featured_3.jpg" alt="">
+                        <img src="{{url('/')}}/assets/img/featured_3.jpg" alt="">
                         <div class="featured-button button">
                             <a href="#projects">Continue Reading</a>
                         </div>
@@ -251,87 +251,87 @@
                         <div class="masonry">
                             <div class="row">
                                 <div class="col-md-6 gallery-item">
-                                    <a    href="{{url('/')}}/assets/front/img/portfolio_big_1.jpg" data-lightbox="image">
-                                        <div class='img-item'  style='background:url({{url('/')}}/assets/front/img/portfolio_big_1.jpg);
+                                    <a    href="{{url('/')}}/assets/img/portfolio_big_1.jpg" data-lightbox="image">
+                                        <div class='img-item'  style='background:url({{url('/')}}/assets/img/portfolio_big_1.jpg);
                                              height: 322px; background-position: center; background-size: cover;'>
 
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-md-6 gallery-item">
-                                    <a  
-                                        href="{{url('/')}}/assets/front/img/portfolio_big_2.jpg" data-lightbox="image">
-                                        <div class='img-item'  style='background:url({{url('/')}}/assets/front/img/portfolio_big_2.jpg);    height: 322px;
+                                    <a
+                                        href="{{url('/')}}/assets/img/portfolio_big_2.jpg" data-lightbox="image">
+                                        <div class='img-item'  style='background:url({{url('/')}}/assets/img/portfolio_big_2.jpg);    height: 322px;
                                              background-position: center;background-size: cover;'></div>
                                     </a>
                                 </div>
                                 <div class="col-md-4 gallery-item">
-                                    <a href="{{url('/')}}/assets/front/img/portfolio_big_3.jpg"
+                                    <a href="{{url('/')}}/assets/img/portfolio_big_3.jpg"
                                        data-lightbox="image">
-                                        <div  class='img-item'   style='background:url({{url('/')}}/assets/front/img/portfolio_big_3.jpg);    height: 250px;
+                                        <div  class='img-item'   style='background:url({{url('/')}}/assets/img/portfolio_big_3.jpg);    height: 250px;
                                               background-position: center; background-size: cover;'></div>
                                     </a>
                                 </div>
                                 <div class="col-md-4 gallery-item">
-                                    <a href="{{url('/')}}/assets/front/img/portfolio_big_4.jpg" data-lightbox="image">
-                                        <div class='img-item'  style='background:url({{url('/')}}/assets/front/img/portfolio_big_4.jpg);    height: 250px;
+                                    <a href="{{url('/')}}/assets/img/portfolio_big_4.jpg" data-lightbox="image">
+                                        <div class='img-item'  style='background:url({{url('/')}}/assets/img/portfolio_big_4.jpg);    height: 250px;
                                              background-position: center; background-size: cover;'></div>
                                     </a>
                                 </div>
                                 <div class="col-md-4 gallery-item gallery-overlay-container">
                                     <div class='number'>2+</div>
-                                    <a href="{{url('/')}}/assets/front/img/portfolio_big_5.jpg" data-lightbox="image">
-                                        <div  class='img-item'  style='background:url({{url('/')}}/assets/front/img/portfolio_big_5.jpg);    height: 250px;
+                                    <a href="{{url('/')}}/assets/img/portfolio_big_5.jpg" data-lightbox="image">
+                                        <div  class='img-item'  style='background:url({{url('/')}}/assets/img/portfolio_big_5.jpg);    height: 250px;
                                               background-position: center;  background-size: cover;'></div>
                                     </a>
                                 </div>
                                 <div class="col-md-8"  style="display: none;">
-                                    <a href="{{url('/')}}/assets/front/img/portfolio_big_2.jpg" data-lightbox="image">
+                                    <a href="{{url('/')}}/assets/img/portfolio_big_2.jpg" data-lightbox="image">
                                     </a>
                                 </div>
                                 <div class="col-md-8" style="display: none;">
-                                    <a href="{{url('/')}}/assets/front/img/portfolio_big_5.jpg" data-lightbox="image">
+                                    <a href="{{url('/')}}/assets/img/portfolio_big_5.jpg" data-lightbox="image">
                                     </a>
                                 </div>
                             </div>
                         </div>
-                    </div> 
+                    </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-12">
                     <figure class="d-flex">
 
-                        <p>Praesent pellentesque efficitur magna, 
+                        <p>Praesent pellentesque efficitur magna,
                             <br>sed pellentesque neque malesuada vitae.</p>
-                </div>   
+                </div>
                 <div class="row m-0">
                     <div class='col-lg-8 col-md-8 col-sm-12 gallery-overlay-container'>
-                        <img src="{{url('/')}}/assets/front/img/blog_1.jpg" class="img-fluid" alt="Responsive image">
+                        <img src="{{url('/')}}/assets/img/blog_1.jpg" class="img-fluid" alt="Responsive image">
                         <div class="number">5+</div>
                     </div>
                     <div class='col-lg-4 col-md-4 col-sm-12 col-sm-12'>
                         <div class="text-content">
                             <figure class="d-flex">
-                                <a href="https://performancehorsehotline.com/details/member.php?id=11442">                                      
-                                    <img loading="lazy" 
-                                         src="https://phhusers.s3.us-east-2.amazonaws.com/userfiles/11442/PDR-logo-profile.jpg" 
+                                <a href="https://performancehorsehotline.com/details/member.php?id=11442">
+                                    <img loading="lazy"
+                                         src="https://phhusers.s3.us-east-2.amazonaws.com/userfiles/11442/PDR-logo-profile.jpg"
                                          class="profile-pic-img" alt="">
                                 </a>
                                 <h3 class="biznametruncate" style="margin-top: 0;">
                                     <a class=" profile-business-name text-decoration-none" href="https://performancehorsehotline.com/details/member.php?id=11442">
-                                        PDR Performance Horses                                             
+                                        PDR Performance Horses
                                     </a>
                                     <div>
                                         <i class="fa-solid fa-crown"></i>
                                         <a  class="profile-name text-decoration-none"
-                                            href="https://performancehorsehotline.com/details/member.php?id=11442">    
-                                            Tammy Brown                                                
+                                            href="https://performancehorsehotline.com/details/member.php?id=11442">
+                                            Tammy Brown
                                         </a>
                                     </div>
                                 </h3>
                             </figure>
                             <div class=" p-0">
                                 <h1 class="horse-name horsenametruncate mt-2 mb-0">
-                                    <a class="text-decoration-none" 
+                                    <a class="text-decoration-none"
                                        href="{{url('/horse-details/16185')}}">Designed By Charly </a>
                                 </h1>
                                 <p class="horses-sire-dam-ds text-capitalize mb-0">
@@ -340,7 +340,7 @@
                                 <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
                                     Slye By Design  x<br>
                                     Misscharlypotatoes12<br>
-                                </p> 
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -352,34 +352,34 @@
                                 <div class="masonry">
                                     <div class="row">
                                         <div class="col-md-6 gallery-item">
-                                            <a    href="{{url('/')}}/assets/front/img/portfolio_big_1.jpg" data-lightbox="image">
-                                                <div class='img-item'  style='background:url({{url('/')}}/assets/front/img/portfolio_big_1.jpg);
+                                            <a    href="{{url('/')}}/assets/img/portfolio_big_1.jpg" data-lightbox="image">
+                                                <div class='img-item'  style='background:url({{url('/')}}/assets/img/portfolio_big_1.jpg);
                                                      height: 322px; background-position: center; background-size: cover;'></div>
                                             </a>
                                         </div>
                                         <div class="col-md-6 gallery-item">
-                                            <a  
-                                                href="{{url('/')}}/assets/front/img/portfolio_big_2.jpg" data-lightbox="image">
-                                                <div class='img-item'  style='background:url({{url('/')}}/assets/front/img/portfolio_big_2.jpg);    height: 322px;
+                                            <a
+                                                href="{{url('/')}}/assets/img/portfolio_big_2.jpg" data-lightbox="image">
+                                                <div class='img-item'  style='background:url({{url('/')}}/assets/img/portfolio_big_2.jpg);    height: 322px;
                                                      background-position: center;background-size: cover;'></div>
                                             </a>
                                         </div>
                                         <div class="col-md-12 gallery-item">
-                                            <a href="{{url('/')}}/assets/front/img/portfolio_big_3.jpg"
+                                            <a href="{{url('/')}}/assets/img/portfolio_big_3.jpg"
                                                data-lightbox="image">
-                                                <div  class='img-item'   style='background:url({{url('/')}}/assets/front/img/portfolio_big_3.jpg);    height: 322px;
+                                                <div  class='img-item'   style='background:url({{url('/')}}/assets/img/portfolio_big_3.jpg);    height: 322px;
                                                       background-position: center; background-size: cover;'></div>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <figure class="d-flex">
-                                <a href="https://performancehorsehotline.com/details/member.php?id=11442">                                      
-                                    <img loading="lazy" 
-                                         src="https://phhusers.s3.us-east-2.amazonaws.com/userfiles/11442/PDR-logo-profile.jpg" 
+                                <a href="https://performancehorsehotline.com/details/member.php?id=11442">
+                                    <img loading="lazy"
+                                         src="https://phhusers.s3.us-east-2.amazonaws.com/userfiles/11442/PDR-logo-profile.jpg"
                                          class="profile-pic-img" alt="">
                                 </a>
                                 <h3 class="biznametruncate " style="    margin-top: 0;">
@@ -388,8 +388,8 @@
                                     <div>
                                         <i class="fa-solid fa-crown"></i>
                                         <a  class="profile-name text-decoration-none"
-                                            href="https://performancehorsehotline.com/details/member.php?id=11442">    
-                                            Tammy Brown                                                
+                                            href="https://performancehorsehotline.com/details/member.php?id=11442">
+                                            Tammy Brown
                                         </a>
                                     </div>
                                 </h3>
@@ -404,7 +404,7 @@
                                 <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
                                     Slye By Design  x<br>
                                     Misscharlypotatoes12<br>
-                                </p> 
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -417,27 +417,27 @@
                                 <div class="masonry">
                                     <div class="row">
                                         <div class="col-md-6 gallery-item">
-                                            <a    href="{{url('/')}}/assets/front/img/portfolio_big_1.jpg" data-lightbox="image">
-                                                <div class='img-item'  style='background:url({{url('/')}}/assets/front/img/portfolio_big_1.jpg);
+                                            <a    href="{{url('/')}}/assets/img/portfolio_big_1.jpg" data-lightbox="image">
+                                                <div class='img-item'  style='background:url({{url('/')}}/assets/img/portfolio_big_1.jpg);
                                                      height: 322px; background-position: center; background-size: cover;'></div>
                                             </a>
                                         </div>
                                         <div class="col-md-6 gallery-item">
-                                            <a  
-                                                href="{{url('/')}}/assets/front/img/portfolio_big_2.jpg" data-lightbox="image">
-                                                <div class='img-item'  style='background:url({{url('/')}}/assets/front/img/portfolio_big_2.jpg);    height: 322px;
+                                            <a
+                                                href="{{url('/')}}/assets/img/portfolio_big_2.jpg" data-lightbox="image">
+                                                <div class='img-item'  style='background:url({{url('/')}}/assets/img/portfolio_big_2.jpg);    height: 322px;
                                                      background-position: center;background-size: cover;'></div>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <figure class="d-flex">
-                                <a href="https://performancehorsehotline.com/details/member.php?id=11442">                                      
-                                    <img loading="lazy" 
-                                         src="https://phhusers.s3.us-east-2.amazonaws.com/userfiles/11442/PDR-logo-profile.jpg" 
+                                <a href="https://performancehorsehotline.com/details/member.php?id=11442">
+                                    <img loading="lazy"
+                                         src="https://phhusers.s3.us-east-2.amazonaws.com/userfiles/11442/PDR-logo-profile.jpg"
                                          class="profile-pic-img" alt="">
                                 </a>
                                 <h3 class="biznametruncate " style="    margin-top: 0;">
@@ -446,8 +446,8 @@
                                     <div>
                                         <i class="fa-solid fa-crown"></i>
                                         <a  class="profile-name text-decoration-none"
-                                            href="https://performancehorsehotline.com/details/member.php?id=11442">    
-                                            Tammy Brown                                                
+                                            href="https://performancehorsehotline.com/details/member.php?id=11442">
+                                            Tammy Brown
                                         </a>
                                     </div>
                                 </h3>
@@ -462,7 +462,7 @@
                                 <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
                                     Slye By Design  x<br>
                                     Misscharlypotatoes12<br>
-                                </p> 
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -475,20 +475,20 @@
                                 <div class="masonry">
                                     <div class="row">
                                         <div class="col-md-12 gallery-item">
-                                            <a    href="{{url('/')}}/assets/front/img/portfolio_big_1.jpg" data-lightbox="image">
-                                                <div class='img-item'  style='background:url({{url('/')}}/assets/front/img/portfolio_big_1.jpg);
+                                            <a    href="{{url('/')}}/assets/img/portfolio_big_1.jpg" data-lightbox="image">
+                                                <div class='img-item'  style='background:url({{url('/')}}/assets/img/portfolio_big_1.jpg);
                                                      height: 500px; background-position: center; background-size: cover;'></div>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12">
                             <figure class="d-flex">
-                                <a href="https://performancehorsehotline.com/details/member.php?id=11442">                                      
-                                    <img loading="lazy" 
-                                         src="https://phhusers.s3.us-east-2.amazonaws.com/userfiles/11442/PDR-logo-profile.jpg" 
+                                <a href="https://performancehorsehotline.com/details/member.php?id=11442">
+                                    <img loading="lazy"
+                                         src="https://phhusers.s3.us-east-2.amazonaws.com/userfiles/11442/PDR-logo-profile.jpg"
                                          class="profile-pic-img" alt="">
                                 </a>
                                 <h3 class="biznametruncate " style="    margin-top: 0;">
@@ -497,8 +497,8 @@
                                     <div>
                                         <i class="fa-solid fa-crown"></i>
                                         <a  class="profile-name text-decoration-none"
-                                            href="https://performancehorsehotline.com/details/member.php?id=11442">    
-                                            Tammy Brown                                                
+                                            href="https://performancehorsehotline.com/details/member.php?id=11442">
+                                            Tammy Brown
                                         </a>
                                     </div>
                                 </h3>
@@ -513,7 +513,7 @@
                                 <p class="horses-sire-dam-ds text-dark text-uppercase mb-0">
                                     Slye By Design  x<br>
                                     Misscharlypotatoes12<br>
-                                </p> 
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -529,7 +529,7 @@
     <section id="blog" class="content-section">
         <div class="section-heading">
             <h1>Blog<br><em>Entries</em></h1>
-            <p>Curabitur hendrerit mauris mollis ipsum vulputate rutrum. 
+            <p>Curabitur hendrerit mauris mollis ipsum vulputate rutrum.
                 <br>Phasellus luctus odio eget dui imperdiet.</p>
         </div>
         <div class="section-content">
@@ -547,7 +547,7 @@
                                 <li>
                                     <div class="item row m-0">
                                         <div class='col-lg-9 col-md-9 col-sm-12 gallery-overlay-container'>
-                                            <img src="{{url('/')}}/assets/front/img/blog_1.jpg" alt="">
+                                            <img src="{{url('/')}}/assets/img/blog_1.jpg" alt="">
                                             <div class="number">5+</div>
                                         </div>
                                         <div class='col-lg-3 col-md-3 col-sm-12 col-sm-12'>
@@ -566,7 +566,7 @@
                                 <li>
                                     <div class="item row">
                                         <div class='col-lg-9 col-md-9 col-sm-12 gallery-overlay-container'>
-                                            <img src="{{url('/')}}/assets/front/img/blog_2.jpg" alt="">
+                                            <img src="{{url('/')}}/assets/img/blog_2.jpg" alt="">
                                             <div class="number">4+</div>
                                         </div>
                                         <div class="col-lg-3 col-md-3 col-sm-12 col-sm-12 text-content">
@@ -583,7 +583,7 @@
                                 <li>
                                     <div class="item row">
                                         <div class='col-lg-9 col-md-9 col-sm-12 gallery-overlay-container'>
-                                            <img src="{{url('/')}}/assets/front/img/blog_3.jpg" alt="">
+                                            <img src="{{url('/')}}/assets/img/blog_3.jpg" alt="">
                                             <div class="number">3+</div>
                                         </div>
                                         <div class="col-lg-3 col-md-3 col-sm-12 col-sm-12 text-content">
@@ -604,7 +604,7 @@
                                 <li>
                                     <div class="item row">
                                         <div class='col-lg-9 col-md-9 col-sm-12 gallery-overlay-container'>
-                                            <img src="{{url('/')}}/assets/front/img/blog_3.jpg" alt="">
+                                            <img src="{{url('/')}}/assets/img/blog_3.jpg" alt="">
                                             <div class="number">5+</div>
                                         </div>
                                         <div class="col-lg-3 col-md-3 col-sm-12 col-sm-12 text-content">
@@ -621,7 +621,7 @@
                                 <li>
                                     <div class="item row">
                                         <div class='col-lg-9 col-md-9 col-sm-12 gallery-overlay-container'>
-                                            <img src="{{url('/')}}/assets/front/img/blog_1.jpg" alt="">
+                                            <img src="{{url('/')}}/assets/img/blog_1.jpg" alt="">
                                             <div class="number">5+</div>
                                         </div>
                                         <div class="col-lg-3 col-md-3 col-sm-12 col-sm-12 text-content">
@@ -638,7 +638,7 @@
                                 <li>
                                     <div class="item row">
                                         <div class='col-lg-9 col-md-9 col-sm-12 gallery-overlay-container'>
-                                            <img src="{{url('/')}}/assets/front/img/blog_2.jpg" alt="">
+                                            <img src="{{url('/')}}/assets/img/blog_2.jpg" alt="">
 
                                             <div class="number">5+</div>
                                         </div>
@@ -660,9 +660,9 @@
                                 <li>
                                     <div class="item row">
                                         <div class='col-lg-9 col-md-9 col-sm-12 gallery-overlay-container'>
-                                            <img src="{{url('/')}}/assets/front/img/blog_2.jpg" alt="">
+                                            <img src="{{url('/')}}/assets/img/blog_2.jpg" alt="">
                                             <div class="number">5+</div>
-                                        </div> 
+                                        </div>
                                         <div class="col-lg-3 col-md-3 col-sm-12 text-content">
                                             <h4>Cras commodo odio ut</h4>
                                             <span>26 May 2018</span>
@@ -677,7 +677,7 @@
                                 <li>
                                     <div class="item row">
                                         <div class='col-lg-9 col-md-9 col-sm-12 gallery-overlay-container'>
-                                            <img src="{{url('/')}}/assets/front/img/blog_1.jpg" alt="">
+                                            <img src="{{url('/')}}/assets/img/blog_1.jpg" alt="">
                                             <div class="number">5+</div>
                                         </div>
                                         <div class="col-lg-3 col-md-3 col-sm-12 text-content">
@@ -694,7 +694,7 @@
                                 <li>
                                     <div class="item row">
                                         <div class='col-lg-9 col-md-9 col-sm-12 gallery-overlay-container'>
-                                            <img src="{{url('/')}}/assets/front/img/blog_3.jpg" alt="">
+                                            <img src="{{url('/')}}/assets/img/blog_3.jpg" alt="">
                                             <div class="number">5+</div>
                                         </div>
                                         <div class="col-lg-3 col-md-3 col-sm-12 text-content">
@@ -715,7 +715,7 @@
                                 <li>
                                     <div class="item row">
                                         <div class='col-lg-9 col-md-9 col-sm-12'>
-                                            <img src="{{url('/')}}/assets/front/img/blog_1.jpg" alt="">
+                                            <img src="{{url('/')}}/assets/img/blog_1.jpg" alt="">
                                             <div class="number">5+</div>
                                         </div>
                                         <div class="col-lg-3 col-md-3 col-sm-12 text-content">
@@ -728,11 +728,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                </li>                                
+                                </li>
                                 <li>
                                     <div class="item row">
                                         <div class='col-lg-9 col-md-9 col-sm-12'>
-                                            <img src="{{url('/')}}/assets/front/img/blog_3.jpg" alt="">
+                                            <img src="{{url('/')}}/assets/img/blog_3.jpg" alt="">
                                             <div class="number">5+</div>
                                         </div>
                                         <div class="col-lg-3 col-md-3 col-sm-12  text-content">
@@ -749,7 +749,7 @@
                                 <li>
                                     <div class="item row">
                                         <div class='col-lg-9 col-md-9 col-sm-12'>
-                                            <img src="{{url('/')}}/assets/front/img/blog_2.jpg" alt="">
+                                            <img src="{{url('/')}}/assets/img/blog_2.jpg" alt="">
                                             <div class="number">5+</div>
                                         </div>
                                         <div class="col-lg-3 col-md-3 col-sm-12 text-content">
@@ -765,7 +765,7 @@
                                 </li>
                             </ul>
                         </div>
-                    </section> 
+                    </section>
                 </div>
             </div>
         </div>
@@ -784,7 +784,7 @@
         <div id="contact-content">
             <div class="section-heading">
                 <h1>Contact<br><em>Sentra</em></h1>
-                <p>Curabitur hendrerit mauris mollis ipsum vulputate rutrum. 
+                <p>Curabitur hendrerit mauris mollis ipsum vulputate rutrum.
                     <br>Phasellus luctus odio eget dui imperdiet.</p>
 
             </div>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     @include('profile.inc._meta-barrelracing-profile')
 
 
@@ -27,6 +27,9 @@
     <link href="{{ url('/assets/css/' . $profile_font) }}" rel="stylesheet" />
     <link href="{{ url('/assets/css/' . $profile_colors) }}" rel="stylesheet" />
     <link href="{{ url('/assets/css/' . $profile_styles) }}" rel="stylesheet" />
+
+     <link rel="stylesheet" href="{{ url('/') }}/assets/css/light-box.css">
+    <link rel='stylesheet' href='{{ url('/') }}/assets/css/front-end.css'>
 @endisset
 
 </head>
@@ -64,7 +67,13 @@
     @include('layouts._scroll-to-top')
 
     {{-- Lucide icons --}}
-    @include('layouts.inc._lucide')
+    <script src="https://hotlinewebsites.com/assets/js/lucide.min.js?v=1.0.1"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        lucide.createIcons();
+    });
+</script>
+
 
     <!-- Conditional Lightbox Scripts -->
     @stack('lightbox-scripts')

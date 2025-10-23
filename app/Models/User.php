@@ -101,10 +101,10 @@ class User extends Authenticatable
         ];
     }
 
-    public function horses()
+    public function posts()
     {
         return $this->setConnection('mysql')  // use primary DB
-                    ->hasMany(Horse::class, 'customerid', 'id');
+                    ->hasMany(Post::class, 'owned_by', 'id');
     }
 
 }

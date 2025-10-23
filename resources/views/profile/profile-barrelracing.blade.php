@@ -5,8 +5,8 @@
 
 @section('content')
 
-<!-- Header Section  -->
-    <header class="masthead">
+    <!-- Header Section  -->
+    <div class="masthead">
         <div class="container d-flex flex-column align-items-center">
 
             <!-- Business Name -->
@@ -119,7 +119,7 @@
                 </div>
             </div>
         </div>
-    </header>
+    </div>
 
 
     {{-- About --}}
@@ -135,11 +135,24 @@
     @endif
 
     {{-- Post Section --}}
-      <x-profile-section id="posts" icon="blocks" title="Posts" variant="light">
+    <x-profile-section id="posts" icon="blocks" title="Posts" variant="light">
 
         {{-- content --}}
-        <div class="row justify-content-center">
+        <div id="posts">
 
+            @if ($posts->isNotEmpty())
+                @foreach ($posts as $post)
+                    @include('profile.inc._post_detail', ['post' => $post])
+                @endforeach
+
+                {{--Pagination  --}}
+                 <div class="mt-2">
+                        {{ $posts->links('vendor.pagination.custom') }}
+                    </div>
+
+            @else
+                <p>Sorry no records found!
+            @endif
         </div>
 
     </x-profile-section>
@@ -244,9 +257,7 @@
                     @endif
 
                     @auth
-                        @if (auth()->check()
-                        && ($owner->id === auth()->id()
-                        || auth()->user()->hasRole('CM Mkt Admin')))
+                        @if (auth()->check() && ($owner->id === auth()->id() || auth()->user()->hasRole('CM Mkt Admin')))
                             <div class="table-responsive mx-auto" style="max-width: 900px;">
                                 <table class="table table-bordered table-striped text-center align-middle bg-white">
                                     <thead class="table-dark">
@@ -261,16 +272,12 @@
                                             <td class="text-start text-dark mt-5">Page Design</td>
                                             <td>~</td>
                                             <td>
-                                                @if (
-                                                        auth()->check() &&
-                                                        (
-                                                        auth()->user()->hasRole('CM Mkt Admin') ||
-                                                        auth()->user()->hasRole('CM Page Admin') ||
-                                                        auth()->user()->hasRole('New Subscriber') ||
-                                                        auth()->user()->hasRole('Complimentary Premium') ||
-                                                        $owner->id == auth()->user()->id
-                                                        )
-                                                        )
+                                                @if (auth()->check() &&
+                                                        (auth()->user()->hasRole('CM Mkt Admin') ||
+                                                            auth()->user()->hasRole('CM Page Admin') ||
+                                                            auth()->user()->hasRole('New Subscriber') ||
+                                                            auth()->user()->hasRole('Complimentary Premium') ||
+                                                            $owner->id == auth()->user()->id))
                                                     <a href="{{ url('/manage/profile-style?user_id=' . $owner->id) }}">
                                                         <i data-lucide="plus"></i>
                                                         <i data-lucide="pencil"></i>
@@ -338,4 +345,3 @@
         }
     </script>
 @endpush
-

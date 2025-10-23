@@ -14,10 +14,7 @@
 
     <div class="section-content">
         <div @if($id) id="{{ $id }}" @endif class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
                     {{ $slot }}
-                </div>
             </div>
         </div>
     </div>

@@ -15,6 +15,17 @@ Route::middleware([
     })->name('dashboard');
 });
 
+/** Auth routs */
+Route::middleware(['auth'])->group(function () {
+   /***
+     *  Post related routes
+     */
+  Route::any('posts/{post}/delete', [ProfileBarrelRacingController::class, 'deletePosts'])->name('post.delete');
+  Route::post('posts/{post}/draft', [ProfileBarrelRacingController::class, 'draftPost'])->name('post.draft');
+
+
+});
+
 /**
  *
  * Profile

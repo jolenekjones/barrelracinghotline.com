@@ -7,11 +7,11 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{url('/')}}/assets/front/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="{{url('/')}}/assets/front/css/light-box.css">
-    <link rel="stylesheet" href="{{url('/')}}/assets/front/css/owl-carousel.css">
-    <link rel="stylesheet" href="{{url('/')}}/assets/front/css/icomoon.css">
-    <link rel="stylesheet" href="{{url('/')}}/assets/front/css/style.css">
+    <link rel="stylesheet" href="{{url('/')}}/assets/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{{url('/')}}/assets/css/light-box.css">
+    <link rel="stylesheet" href="{{url('/')}}/assets/css/owl-carousel.css">
+    <link rel="stylesheet" href="{{url('/')}}/assets/css/icomoon.css">
+    <link rel="stylesheet" href="{{url('/')}}/assets/css/style.css">
     <style>
         #fh5co-main {
             width: 78.5%;

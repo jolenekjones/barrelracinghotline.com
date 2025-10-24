@@ -8,7 +8,7 @@
     @yield('content')
 
     @include('layouts._front-end-js')
-     Front EEENNNNND
+
     @guest
 
         @include('layouts.inc._auto-login')

@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HorseController;
 use App\Http\Controllers\ProfileBarrelRacingController;
+use App\Htpp\Controllers\SSOController;
 Route::resource('/', App\Http\Controllers\HorsehotlineController::class);
 
 Route::middleware([
@@ -35,3 +36,7 @@ Route::get('/profile/{id}', [ProfileBarrelRacingController::class, 'profile'])->
 
 Route::get('horse-details/{id}', [HorseController::class, 'horseDetails'])->name('horse-details');
 Route::get('horses', [HorseController::class, 'Horses'])->name('horses');
+
+
+Route::get('/sso/check', [SSOController::class, 'checkParentAuth'])->name('sso.check');
+Route::post('/sso/login', [SSOController::class, 'ssoLogin'])->name('sso.login');

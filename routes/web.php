@@ -39,4 +39,4 @@ Route::get('horses', [HorseController::class, 'Horses'])->name('horses');
 
 
 Route::get('/sso/check', [SSOController::class, 'checkParentAuth'])->name('sso.check');
-Route::post('/sso/login', [SSOController::class, 'ssoLogin'])->name('sso.login');
+Route::post('/sso/login',[SSOController::class, 'ssoLogin'])->name('sso.login');

@@ -8,8 +8,9 @@
     @yield('content')
 
     @include('layouts._front-end-js')
+     Front EEENNNNND
     @guest
-    Front EEENNNNND
+
         @include('layouts.inc._auto-login')
     @endguest
     @stack('scripts')

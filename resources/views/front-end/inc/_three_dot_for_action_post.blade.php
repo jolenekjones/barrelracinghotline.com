@@ -42,7 +42,7 @@
      <script>
          /** User Permissions for Horse Actions **/
          window.horsePermissions = {
-             canManage: {{ (auth()->check() && auth()->user()->hasRole('Super Admin')) || (auth()->check() && auth()->user()->id == $horse->customerid) ? 'true' : 'false' }}
+             canManage: {{ (auth()->check() && auth()->user()->hasRole('Super Admin')) || (auth()->check() && auth()->user()->id == $post->customerid) ? 'true' : 'false' }}
          };
 
          /** Make It Feature Action **/

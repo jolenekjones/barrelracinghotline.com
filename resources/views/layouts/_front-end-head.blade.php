@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="{{url('/')}}/assets/css/owl-carousel.css">
     <link rel="stylesheet" href="{{url('/')}}/assets/css/icomoon.css">
     <link rel="stylesheet" href="{{url('/')}}/assets/css/style.css">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <style>
         #fh5co-main {
             width: 78.5%;

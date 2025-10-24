@@ -17,8 +17,7 @@
                                 method: 'POST',
                                 headers: {
                                     'Content-Type': 'application/json', // Tell Laravel it's JSON
-                                    'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]')
-                                        .content // Include CSRF token if you’re logged in
+                                    'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').content // Include CSRF token if you’re logged in
                                 },
                                 body: JSON.stringify({
                                     id: event.data.user.id
